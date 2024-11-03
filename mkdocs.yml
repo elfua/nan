@@ -1,0 +1,36 @@
+site_name: Body Networks
+site_url: https://elfua.github.io/nan
+site_dir: site
+use_directory_urls: false
+
+
+theme: 
+    name: material
+    highlightjs: false
+    font: false
+    palette:
+        primary: blue
+        accent: blue
+    extra:
+      generator: false
+    features:
+      - navigation.instant
+      - navigation.tracking
+      - navigation.expand
+      - navigation.tabs
+      - toc.follow
+      - toc.integrate
+      - search.highlight
+      - header.autohide
+
+
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
+    - admonition: {}
+    - pymdownx.smartsymbols
+
+nav:
+    - ieee: ieee.md
